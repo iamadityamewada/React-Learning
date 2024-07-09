@@ -1,0 +1,18 @@
+.btn{
+    color:antiquewhite;
+    background-color: blueviolet;
+    font-size: medium;
+    cursor: pointer;
+    height: 50px;
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+    box-shadow: 4px 4px 20px rgb(84, 12, 151);
+
+    
+}
+.btn:active{
+    box-shadow: none;
+    transform:translateX(4px) translateY(4px);
+}
