@@ -1,0 +1,15 @@
+.btn{
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+    font-size: 20px;
+    border: none;
+    background-color:rgb(51, 51, 230);
+    color: white;
+    box-shadow: 4px 4px 10px 0px rgb(17, 17, 90) ;
+    transition: 0.8;
+}
+
+.btn:active{
+    box-shadow: 0 0 0 0 #000000;
+}
