@@ -1,11 +1,11 @@
 // app component - function 
-import Login from './LoginPage.jsx'
+import SignUP from './RegistrationPage.jsx'
 import './App.css'
 
 const App =()=>{
     return(
-        <div className='container'>
-            <Login/>
+        <div>
+            <SignUP/>
         </div>
     )
 }
